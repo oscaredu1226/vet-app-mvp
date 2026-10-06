@@ -1,0 +1,10 @@
+/* 1. Importa Bootstrap */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* 2. Importa Font Awesome */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+/* 3. Importa estilos personalizados en orden */
+@import './top-navbar.css';
+@import './sidebar-fixed.css';
+@import './style.css';
