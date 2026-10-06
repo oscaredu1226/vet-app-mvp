@@ -1,0 +1,64 @@
+# Dependencias y archivos generados
+/vendor/
+/node_modules/
+/composer.phar
+/public/build/
+/public/hot
+/public/storage
+
+# Entorno y credenciales; la plantilla sí se publica
+.env
+.env.*
+!.env.example
+auth.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Cachés, sesiones, registros y archivos locales de Laravel
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+!/storage/framework/cache/data/
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/debugbar/*
+!/storage/debugbar/.gitignore
+/storage/app/*
+!/storage/app/.gitignore
+!/storage/app/public/
+/storage/app/public/*
+!/storage/app/public/.gitignore
+
+# Bases locales, respaldos y resultados de pruebas
+*.sqlite*
+*.sql.gz
+*.bak
+*.backup
+/backups/
+/backup/
+/database/dumps/
+/database/backups/
+.phpunit.result.cache
+.phpunit.cache/
+.php-cs-fixer.cache
+/coverage/
+
+# Configuración del equipo y editores
+Homestead.json
+Homestead.yaml
+*.log
+/.fleet/
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
